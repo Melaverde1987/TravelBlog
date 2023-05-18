@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Century Gothic', Helvetica, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+/* my style general */
+
+header {
+    padding: 4rem 0;
+    color: #fff;
+    text-align: left;
+    background: rgb(56, 56, 56) url('../img/1234.png') no-repeat;
+    background-size: 34%;
+    background-position: 89% 59%;
+}
+
+    header .header_text {
+        font-size: 2rem;
+        text-shadow: 2px 2px 4px rgba(109, 109, 109, 1);
+    }
+
+aside .item_flex {
+    display: flex !important;
+    flex-direction: row;
+    height: 12rem;
+    max-height: 12rem;
+}
+
+    aside .slide_image {
+        width: 20%;
+    }
+
+    aside .small_slider {
+        display: none;
+    }
+
+
+
+main {
+    background-color: rgb(243, 243, 243);
+}
+
+    main .row .box {
+        background-color: rgb(255, 255, 255);
+        height: 30rem;
+        position: relative;
+    }
+
+
+        main .row .box .image {
+            height: 40%;
+            overflow: hidden;
+            object-fit: cover;
+        }
+        main .row .box .text {
+            height: 60%;
+        }
+
+        
+
+    main .bg-my {
+        background-color: rgb(48, 185, 197);
+    }
+
+    main .box2 {
+        width: 100%;
+    }
+
+    main .fs-7 {
+        font-size: 0.9rem;
+    }
+
+    main .fs-8 {
+        font-size: 0.8rem;
+    }
+
+    main .my_badge {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: -1rem;
+    }
+
+    main .color {
+        color: rgb(48, 185, 197);
+    }
+
+
+main button {
+    background-color: rgb(109, 109, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+    main button:hover {
+        background-color: rgb(48, 185, 197);
+    }
+
+
+footer {
+    padding: 4rem 0;
+    color: #fff;
+    text-align: left;
+    background: rgb(56, 56, 56);
+}
